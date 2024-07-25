@@ -31,7 +31,7 @@ const PartnersCarousel = ({
 			<h2 className='font-poppins font-semibold text-3xl max-w-xl leading-10'>
 				{headingText}
 			</h2>
-			<div className='mt-12 flex items-center flex-wrap justify-between'>
+			<div className='mt-20 flex items-center flex-wrap justify-between'>
 				{dataPartners.map((partner, index: number) => (
 					<Link
 						href={partner.link || '/'}
