@@ -2,7 +2,7 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div>HeroSection</div>
+    <div className='bg-primary min-h-screen'></div>
   )
 }
 

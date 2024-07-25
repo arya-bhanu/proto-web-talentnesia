@@ -30,6 +30,9 @@ const config: Config = {
 				poppins: ['Poppins', ...defaultTheme.fontFamily.sans],
 				khand: ['Khand', ...defaultTheme.fontFamily.sans],
 			},
+			colors: {
+				primary: '#219EBC',
+			},
 		},
 	},
 	plugins: [],

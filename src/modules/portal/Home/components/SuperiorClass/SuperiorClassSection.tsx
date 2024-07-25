@@ -37,9 +37,9 @@ const datas: IFeatureCard[] = [
 		title: 'Animasi 3D For Beginners - Become An Expert in One Minute',
 	},
 ];
-const SuperiorClassSection = () => {
+const SuperiorClassSection = ({ className }: { className?: string }) => {
 	return (
-		<section className='mt-24'>
+		<section className={className}>
 			<h2 className='font-poppins font-semibold text-3xl'>
 				Kelas Unggulan Kami
 			</h2>

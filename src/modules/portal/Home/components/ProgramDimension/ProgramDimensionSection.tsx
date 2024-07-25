@@ -24,9 +24,9 @@ const programs: IProgramDimension[] = [
 		title: 'Animasi',
 	},
 ];
-const ProgramDimensionSection = () => {
+const ProgramDimensionSection = ({ className }: { className?: string }) => {
 	return (
-		<section>
+		<section className={className}>
 			<h2 className='font-poppins font-semibold text-3xl'>
 				Temukan Program Sesuai Minatmu
 			</h2>
