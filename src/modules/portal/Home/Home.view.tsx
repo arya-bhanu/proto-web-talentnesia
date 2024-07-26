@@ -9,13 +9,13 @@ const LandingView = () => {
 	return (
 		<>
 			<HeroSection />
-			<div className='container'>
+			<main className='container'>
 				<ProgramDimensionSection className='mt-24' />
 				<SuperiorClassSection className='mt-24' />
 				<UserStorySection className='mt-48' />
 				<PartnersSection className='mt-28' />
 				<NewsLetterSubscriptionSection className='mt-36' />
-			</div>
+			</main>
 		</>
 	);
 };

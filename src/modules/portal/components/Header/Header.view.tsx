@@ -6,7 +6,7 @@ import Dropdown from './Dropdown';
 
 const Header = () => {
 	return (
-		<div className='p-3 flex items-center'>
+		<header className='p-3 flex items-center'>
 			<div className='flex items-center gap-x-24'>
 				<Link
 					href={'/'}
@@ -45,7 +45,7 @@ const Header = () => {
 					</Link>
 				</div>
 			</nav>
-		</div>
+		</header>
 	);
 };
 
